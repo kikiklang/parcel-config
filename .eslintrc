@@ -1,0 +1,29 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "extends": [
+    "standard",
+    "prettier",
+    "prettier/standard"
+  ],
+  "plugins": [
+    "import",
+    "prettier",
+    "standard"
+  ],  
+  "rules": {
+    "no-console": "off",
+    "no-process-env": "off"
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  }
+}

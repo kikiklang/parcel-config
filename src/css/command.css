@@ -1,0 +1,15 @@
+/************** COMMAND LIST **************/
+.npm {
+  text-align: center;
+}
+
+.npm-title {
+  margin-bottom: 2rem;
+  color: var(--black);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.npm-list--elem span {
+  color: #666;
+}
