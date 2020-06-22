@@ -1,9 +1,9 @@
 {
-  "name": "parcel-config",
+  "name": "project_name",
   "version": "0.0.1",
-  "description": "A boilerplate for parcel based projects",
+  "description": "project_description",
   "main": "src/html/index.html",
-  "author": "Vincent Bourdeau",
+  "author": "your_own_name",
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/html/index.html --out-dir development -p 3000",
