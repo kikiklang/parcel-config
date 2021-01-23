@@ -1,5 +1,5 @@
-import { multiply } from './utils'
+import multiply from './utils';
 
-const result = multiply(4, 6)
+const result = multiply(4, 6);
 
-console.log(result)
+console.log(result);

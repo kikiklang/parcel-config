@@ -1,0 +1,23 @@
+/************** COMMAND LIST **************/
+
+table {
+  width: 700px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  padding: var(--space2) var(--space3);
+  color: var(--black);
+  font-size: var(--font2);
+  font-family: var(--font-bold);
+  border: 1px solid black;
+}
+
+td {
+  padding: var(--space2) var(--space3);
+  color: var(--black);
+  font-size: var(--font2);
+  font-family: var(--font-regular);
+}

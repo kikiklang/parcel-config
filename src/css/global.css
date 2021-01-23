@@ -1,5 +1,36 @@
 /************** GLOBAL STYLES **************/
+@font-face {
+  font-family: IBMPlexMono-Bold-Latin1;
+  src: url('../assets/fonts/IBMPlexMono-Bold-Latin1.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: IBMPlexMono-Regular-Latin1;
+  src: url('../assets/fonts/IBMPlexMono-Regular-Latin1.woff2') format('woff2');
+  font-display: swap;
+}
+
 :root {
-  --black: hsl(0, 0%, 10%);
-  --blue: #60b0e6;
+  --font-regular: ibmplexmono-regular-latin1, arial, sans-serif;
+  --font-bold: ibmplexmono-bold-latin1, arial, sans-serif;
+  --black: #333;
+  --main-color: #f3ad43;
+  --grey: #cac9c9;
+  --space6: 8rem;
+  --space5: 4rem;
+  --space4: 2rem;
+  --space3: 1rem;
+  --space2: 0.5rem;
+  --space1: 0.25rem;
+  --font6: 5rem;
+  --font5: 2.441rem;
+  --font4: 1.953rem;
+  --font3: 1.563rem;
+  --font2: 1.3rem;
+  --font1: 1rem;
+}
+
+html {
+  background-color: var(--main-color);
 }

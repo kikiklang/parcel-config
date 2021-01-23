@@ -1,7 +1,0 @@
-{
-  "extends": [
-    "stylelint-order",
-    "stylelint-config-standard",
-    "stylelint-config-rational-order"
-  ]
-}
