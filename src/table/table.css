@@ -10,14 +10,15 @@ table {
 th {
   padding: var(--space2) var(--space3);
   color: var(--black);
-  font-size: var(--font2);
+  font-size: var(--font1);
   font-family: var(--font-bold);
+  text-align: left;
   border: 1px solid black;
 }
 
 td {
   padding: var(--space2) var(--space3);
   color: var(--black);
-  font-size: var(--font2);
+  font-size: var(--font1);
   font-family: var(--font-regular);
 }

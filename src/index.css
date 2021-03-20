@@ -1,4 +1,33 @@
-/************** GLOBAL STYLES **************/
+/******* RESET *******/
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/************** TYPEFACE **************/
+
 @font-face {
   font-family: IBMPlexMono-Bold-Latin1;
   src: url('../assets/fonts/IBMPlexMono-Bold-Latin1.woff2') format('woff2');
@@ -11,12 +40,15 @@
   font-display: swap;
 }
 
+/************** VARIABLES **************/
+
 :root {
+  /* colors */
   --font-regular: ibmplexmono-regular-latin1, arial, sans-serif;
   --font-bold: ibmplexmono-bold-latin1, arial, sans-serif;
-  --black: #333;
-  --main-color: #f3ad43;
-  --grey: #cac9c9;
+  --black: hsl(0, 0%, 20%);
+  --main-color: hsl(36, 88%, 61%);
+  --grey: hsl(0, 1%, 79%);
   --space6: 8rem;
   --space5: 4rem;
   --space4: 2rem;
@@ -31,6 +63,13 @@
   --font1: 1rem;
 }
 
+/************** GLOBAL STYLES **************/
+
 html {
   background-color: var(--main-color);
 }
+
+/******* IMPORTS *******/
+
+@import './header/header.css';
+@import './table/table.css';
