@@ -44,23 +44,45 @@ textarea {
 
 :root {
   /* colors */
-  --font-regular: ibmplexmono-regular-latin1, arial, sans-serif;
-  --font-bold: ibmplexmono-bold-latin1, arial, sans-serif;
   --black: hsl(0, 0%, 20%);
   --main-color: hsl(36, 88%, 61%);
   --grey: hsl(0, 1%, 79%);
-  --space6: 8rem;
-  --space5: 4rem;
-  --space4: 2rem;
-  --space3: 1rem;
-  --space2: 0.5rem;
-  --space1: 0.25rem;
-  --font6: 5rem;
-  --font5: 2.441rem;
-  --font4: 1.953rem;
-  --font3: 1.563rem;
-  --font2: 1.3rem;
-  --font1: 1rem;
+
+  /* fonts family */
+  --font-regular: ibmplexmono-regular-latin1, arial, sans-serif;
+  --font-bold: ibmplexmono-bold-latin1, arial, sans-serif;
+
+  /* type scale */
+  --scale-000: 0.75rem; /* 12px */
+  --scale-00: 0.875rem; /* 14px */
+  --scale-0: 1rem; /* 16px */
+  --scale-1: 1.125rem; /* 18px */
+  --scale-2: 1.25rem; /* 20px */
+  --scale-3: 1.5rem; /* 24px */
+  --scale-4: 1.875rem; /* 30px */
+  --scale-5: 2.25rem; /* 36px */
+  --scale-6: 2.5rem; /* 40px */
+  --scale-7: 3rem; /* 48px */
+
+  /* sizing property -> margin, padding, height, gap */
+  --spacing-0000: 4px;
+  --spacing-000: 8px;
+  --spacing-00: 12px;
+  --spacing-0: 16px;
+  --spacing-1: 20px;
+  --spacing-2: 24px;
+  --spacing-3: 32px;
+  --spacing-4: 40px;
+  --spacing-5: 48px;
+  --spacing-6: 64px;
+  --spacing-7: 96px;
+
+  /* breakpoint */
+  --small: 640px;
+  --medium: 768px;
+  --large: 1024px;
+  --extralarge: 1280px;
+  --huge: 1536px;
 }
 
 /************** GLOBAL STYLES **************/
